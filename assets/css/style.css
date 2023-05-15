@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    text-align: center;
+    color: #000f08;
+    font-family: "Open Sans";
+}
+nav {
+    background-color: #000f08;
+    color: white;
+    text-align: left;
+    padding: 20px 120px;
+    font-size: 25px;
+}
+
+nav ul li {
+    display:inline-block;
+    vertical-align: -webkit-baseline-middle;
+    margin-right: 60px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+.icono {
+        width: 25px;
+        background: white;
+        color: #000f08;
+        padding: 10px;
+        filter: invert(100);
+}
+header {
+        text-align: right;
+        background-image: url(../img/bg-hero.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* Propiedades Agregadas */
+        font-family: Open sans;
+        text-shadow: 0px 3px 6px black;
+        color: white;
+        padding: 100px;
+        }
+
+    header h1 {
+            font-size: 50px;
+            font-weight: 900;
+            }
+    header h2 {
+    font-size: 40px;
+    font-weight: 300;
+    font-weight: lighter;
+    }
+    #ubicacion {
+        padding: 150px;
+    }
+    #ubicación h2 {
+        font-size: 50px;
+        margin: 40px 0px 20px 0px;
+    }
+    #ubicación h2 p {
+        font-size: 30px;
+    }
+
+    #Proxima-Charla {
+        width: 100%;
+        background: #a4452c;
+        padding: 100px;
+        color: white;
+        
+        }
+    #Proxima-Charla .foto img {
+        width: 200px;
+        display: inline-block;
+        vertical-align: middle left ;
+        padding-right: 3%;
+    }
+    #Proxima-Charla .texto {
+        display: inline-block;
+        text-align: justify;
+        margin: left 10%;
+        width: 300px;
+    }
+    #Proxima-charla .texto h3 {
+        font-size: 45px;
+    }
+    
+    #Proxima-charla .texto h4 {
+        font-size: 40px;
+        padding-bottom: 10px;
+    }
+    
+    #Proxima-charla .texto h6 {
+        font-size: 33px;
+    }
+    
+    #Proxima-charla .texto span {
+        font-size: 20px;
+    }
+    
+    #Proxima-charla .texto p {
+        font-size: 25px;
+    }
+    
+    
+    #Eventos-Anteriores {
+        text-align: center;
+    }
+
+
+    
+    footer {
+        font-family: "Open Sans", sans-serif;
+        text-align: center;
+        background: #000f08;
+        color: white;
+        padding: 30px 50px 30px
+        } 
+    footer a i {
+        padding-right: 20px;
+    }
